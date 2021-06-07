@@ -55,6 +55,9 @@ define( 'SECURE_AUTH_SALT', 'SZT&pf2G50<y5[)%x=frsaO[Tap^t]c8WiG>|jUef9}r))op6nO
 define( 'LOGGED_IN_SALT',   '3*d);a?i}5>caGL{UCmYKIxvBOrmGlmSWs6S_Le{qWC;ZAs?;bc)vE!3iU~auDF^' );
 define( 'NONCE_SALT',       '>^e9&!-fW i8l$} .fhqQ^sxUfSgv?6)MB3!IWMH>h@J|2>+vs0pM%I,?*~{y-n|' );
 
+define('JWT_AUTH_SECRET_KEY', '12345');
+define('JWT_AUTH_CORS_ENABLE', true);
+
 /**#@-*/
 
 /**
